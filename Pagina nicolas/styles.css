@@ -1,0 +1,85 @@
+/* * {
+    border: 2px solid red;
+  } */
+  
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+  
+header {
+    background-position: top;
+    background-size: cover;
+    padding: 50px 0;
+    height: 40vh;
+    background-image: url(https://res.cloudinary.com/dh6ipg8bj/image/upload/v1735820476/Purple_and_White_Modern_Computer_Class_Google_Classroom_Header_ziwi71.png);
+    overflow: hidden;
+}
+
+#main-text h1{
+    font-size: 4em;
+    margin: 0;
+    margin-top: 10px;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
+}
+
+#main-text h1 span {
+    font-size: larger;
+    color: #007bff;
+}
+
+button {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1.2em;
+} 
+
+section {
+    padding: 50px 20px;
+    text-align: center;
+}
+
+section#form {
+    background-color: #6abae2b4;
+}
+
+form {
+    margin: 0 auto;
+    max-width: 350px;
+    text-align: left;
+    margin-bottom: 100px;
+}
+
+form label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+form input, 
+form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+form button {
+    width: 50%;
+    margin-left: 25%;
+}
+
+footer {
+    background-color: rgb(56, 56, 56);
+    color: white;
+    padding: 20px 0px;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
